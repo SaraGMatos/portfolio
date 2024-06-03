@@ -7,14 +7,14 @@ function MainPage() {
         <Link
           to="https://www.linkedin.com/in/saragmatos"
           target="_blank"
-          className="m-2 mr-5 ml-5 text-huntergreen font-semibold hover:italic hover:translate-x-2 hover:transition-transform ease-in duration-200"
+          className="m-2 mr-5 ml-6 text-huntergreen font-semibold hover:italic hover:translate-x-2 hover:transition-transform ease-in duration-200"
         >
           LinkedIn
         </Link>
         <Link
           to="https://www.github.com/SaraGMatos"
           target="_blank"
-          className="m-2 mr-5 ml-5 text-huntergreen font-semibold hover:italic hover:translate-x-2 hover:transition-transform ease-in duration-200"
+          className="m-2 mr-5 ml-6 text-huntergreen font-semibold hover:italic hover:translate-x-2 hover:transition-transform ease-in duration-200"
         >
           GitHub
         </Link>
