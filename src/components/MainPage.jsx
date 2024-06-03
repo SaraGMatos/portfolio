@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function MainPage() {
   return (
-    <div className="w-screen h-screen m-0 p-8">
+    <div className="w-screen">
       <nav className="flex m-4 xl:ml-5 font-poppins text-base">
         <Link
           to="https://www.linkedin.com/in/saragmatos"
@@ -39,7 +39,7 @@ function MainPage() {
             Actively looking for a dev role within the UK
           </p>
         </section>
-        <nav className="flex flex-col m-10 mt-1 grow font-antic text-[80px] sm:text-9xl md:text-[160px] lg:text-[180px] xl:text-[180px] 2xl:text-[160px] xl:mr-20 max-w-fit">
+        <nav className="flex flex-col m-10 mt-1 grow font-antic text-[80px] sm:text-9xl md:text-[160px] lg:text-[160px] xl:text-[140px] 2xl:text-[140px] xl:mr-20 max-w-fit">
           <Link className="xl:m-3 text-ferngreen hover:italic hover:translate-x-4 hover:transition-transform ease-in duration-200">
             SKILLS
           </Link>
