@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function MainPage() {
   return (
-    <div className="w-screen">
+    <div className="w-screen h-screen">
       <nav className="flex m-4 xl:ml-5 font-poppins text-base">
         <Link
           to="https://www.linkedin.com/in/saragmatos"
