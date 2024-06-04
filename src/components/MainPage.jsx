@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import SkillsPage from "./SkillsPage";
 
 function MainPage() {
   return (
@@ -41,21 +40,21 @@ function MainPage() {
           </p>
         </section>
         <nav className="flex flex-col m-10 mt-1 grow font-antic text-[80px] sm:text-9xl md:text-[160px] lg:text-[160px] xl:text-[140px] 2xl:text-[140px] xl:mr-20 max-w-fit">
-          <Link
-            to="/skills"
+          <a
+            href="/skills"
             className="xl:m-3 text-ferngreen hover:italic hover:translate-x-4 hover:transition-transform ease-in duration-200"
           >
             SKILLS
-          </Link>
-          <Link className="xl:m-3 text-ferngreen hover:italic hover:translate-x-4 hover:transition-transform ease-in duration-200">
+          </a>
+          <a className="xl:m-3 text-ferngreen hover:italic hover:translate-x-4 hover:transition-transform ease-in duration-200">
             PROJECTS
-          </Link>
-          <Link className="xl:m-3 text-ferngreen hover:italic hover:translate-x-4 hover:transition-transform ease-in duration-200">
+          </a>
+          <a className="xl:m-3 text-ferngreen hover:italic hover:translate-x-4 hover:transition-transform ease-in duration-200">
             ABOUT
-          </Link>
-          <Link className="xl:m-3 text-ferngreen hover:italic hover:translate-x-4 hover:transition-transform ease-in duration-200">
+          </a>
+          <a className="xl:m-3 text-ferngreen hover:italic hover:translate-x-4 hover:transition-transform ease-in duration-200">
             CONTACT
-          </Link>
+          </a>
         </nav>
       </div>
     </div>
