@@ -71,31 +71,32 @@ function MainPage() {
           </h2>
           <div className="flex w-2/6 justify-between text-xl text-teagreen md:text-2xl">
             <Link
-              className="m-3 hover:italic hover:translate-x-2 hover:transition-transform ease-in duration-200"
+              className="m-3 hover:italic hover:translate-x-2 hover:transition-transform ease-in duration-200 font-poppins"
               to="/#home"
             >
               Home
             </Link>
-            <Link className="m-3 hover:italic hover:translate-x-2 hover:transition-transform ease-in duration-200">
+            <Link className="m-3 hover:italic hover:translate-x-2 hover:transition-transform ease-in duration-200 font-poppins">
               Projects
             </Link>
-            <Link className="m-3 hover:italic hover:translate-x-2 hover:transition-transform ease-in duration-200">
+            <Link className="m-3 hover:italic hover:translate-x-2 hover:transition-transform ease-in duration-200 font-poppins">
               About
             </Link>
-            <Link className="m-3 hover:italic hover:translate-x-2 hover:transition-transform ease-in duration-200">
+            <Link className="m-3 hover:italic hover:translate-x-2 hover:transition-transform ease-in duration-200 font-poppins">
               Contact
             </Link>
           </div>
-
           <div
             id="skills-content"
             className="flex flex-wrap justify-around mt-12 md:text-3xl"
           >
             <section>
-              <h3 className="text-teagreen font-antic underline">front-end</h3>
+              <h3 className="text-teagreen font-poppins underline">
+                front end
+              </h3>
             </section>
             <section>
-              <h3 className="text-teagreen font-antic underline">back-end</h3>
+              <h3 className="text-teagreen font-poppins underline">back end</h3>
             </section>
           </div>
         </section>
