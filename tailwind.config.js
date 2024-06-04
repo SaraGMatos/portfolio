@@ -14,6 +14,7 @@ export default {
         teagreen: "#CCD5AE",
         ferngreen: "#588157",
         huntergreen: "#3A5A40",
+        pakistangreen: "#283618",
       },
     },
   },
