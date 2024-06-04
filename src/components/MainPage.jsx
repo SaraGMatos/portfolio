@@ -45,7 +45,7 @@ function MainPage() {
           </section>
           <nav
             id="sidenav"
-            className="flex flex-col m-10 mt-1 grow font-antic text-[80px] sm:text-9xl md:text-[160px] lg:text-[160px] xl:text-[140px] 2xl:text-[140px] xl:mr-20 max-w-fit"
+            className="flex self-center flex-col m-10 mt-1 grow font-antic text-[80px] sm:text-9xl md:text-[160px] lg:text-[160px] xl:text-[140px] 2xl:text-[140px] xl:mr-20 max-w-fit"
           >
             <Link
               to="/#skills"
@@ -69,11 +69,22 @@ function MainPage() {
           <h2 className="text-teagreen font-antic text-[80px] sm:text-9xl md:text-[160px] lg:text-[160px] xl:text-[140px] 2xl:text-[140px] xl:mr-20">
             SKILLS
           </h2>
-          <div className="flex w-2/6 justify-between text-xl text-teagreen hover:italic hover:translate-x-4 hover:transition-transform ease-in duration-200 pl-2">
-            <Link to="/#home">Home</Link>
-            <Link>Projects</Link>
-            <Link>About</Link>
-            <Link>Contact</Link>
+          <div className="flex w-2/6 justify-between text-xl text-teagreen">
+            <Link
+              className="m-3 hover:italic hover:translate-x-2 hover:transition-transform ease-in duration-200"
+              to="/#home"
+            >
+              Home
+            </Link>
+            <Link className="m-3 hover:italic hover:translate-x-2 hover:transition-transform ease-in duration-200">
+              Projects
+            </Link>
+            <Link className="m-3 hover:italic hover:translate-x-2 hover:transition-transform ease-in duration-200">
+              About
+            </Link>
+            <Link className="m-3 hover:italic hover:translate-x-2 hover:transition-transform ease-in duration-200">
+              Contact
+            </Link>
           </div>
         </section>
       </div>
