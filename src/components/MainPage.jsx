@@ -100,7 +100,7 @@ function MainPage() {
                 <b>Figma</b> and <b>Excalidraw</b>.
               </p>
               <p className="text-teagreen text-justify">
-                Building user-friendly interfaces with web technologies such as
+                Creating user-friendly interfaces with web technologies such as
                 <b> JavaScript</b>, <b>HTML</b>, <b>CSS</b> and the much loved{" "}
                 <b>ReactJS</b>.
               </p>
@@ -108,17 +108,39 @@ function MainPage() {
                 Adding some colours and sparkles using popular framaworks like{" "}
                 <b>TailwindCSS</b> or <b>Bootstrap</b>.
               </p>
+              <p className="text-teagreen text-justify">
+                Using <b>Axios</b> as HTTP client for making API requests from
+                the client side.
+              </p>
             </section>
             <section id="backend" className="flex flex-col text-center w-80">
               <h3 className="text-earthyellow font-poppins text-2xl sm:text-3xl">
                 back end
               </h3>
-              <div>
-                <p>PostgreSQL</p>
-                <p>Supabase</p>
-                <p>ExpressJS</p>
-                <p>Axios</p>
-              </div>
+              <p className="text-teagreen text-justify">
+                Building solid RESTful APIs using <b>Node.js</b> and{" "}
+                <b>ExpressJS</b>.
+              </p>
+              <p className="text-teagreen text-justify">
+                Creating, seeding and querying <b>PostgreSQL</b> databases using
+                both <b>psql</b> and <b>Azure Data Studio</b>.
+              </p>
+              <p className="text-teagreen text-justify">
+                Using <b>Supabase</b> as backend service to quickly build robust
+                apps.
+              </p>
+              <p className="text-teagreen text-justify">
+                Exploring the world of OOP using <b>C#</b> and <b>Java</b>.
+              </p>
+            </section>
+            <section id="testing" className="flex flex-col text-center w-80">
+              <h3 className="text-earthyellow font-poppins text-2xl sm:text-3xl">
+                testing
+              </h3>
+              <p className="text-teagreen text-justify">
+                Ensuring code efficiency and reliability through{" "}
+                <b>test driven development</b>.
+              </p>
             </section>
           </div>
         </section>
