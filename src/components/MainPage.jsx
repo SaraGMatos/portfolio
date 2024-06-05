@@ -105,12 +105,12 @@ function MainPage() {
                 <b>ReactJS</b>.
               </p>
               <p className="text-teagreen text-justify">
-                Adding some colours and sparkles using popular framaworks like{" "}
-                <b>TailwindCSS</b> or <b>Bootstrap</b>.
-              </p>
-              <p className="text-teagreen text-justify">
                 Using <b>Axios</b> as HTTP client for making API requests from
                 the client side.
+              </p>
+              <p className="text-teagreen text-justify">
+                Adding some colours and sparkles using popular framaworks like{" "}
+                <b>TailwindCSS</b> or <b>Bootstrap</b>.
               </p>
             </section>
             <section id="backend" className="flex flex-col text-center w-80">
@@ -141,6 +141,18 @@ function MainPage() {
                 Ensuring code efficiency and reliability through{" "}
                 <b>test driven development</b>.
               </p>
+              <p className="text-teagreen text-justify">
+                Writing robust unit tests with <b>Jest</b>.
+              </p>
+              <p className="text-teagreen text-justify">
+                Safeguarding API call reliability through integration testing
+                with <b>Supertest</b>.
+              </p>
+            </section>
+            <section id="teamwork">
+              <h3 className="text-earthyellow font-poppins text-2xl sm:text-3xl">
+                team work
+              </h3>
             </section>
           </div>
         </section>
