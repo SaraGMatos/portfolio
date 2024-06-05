@@ -15,6 +15,7 @@ export default {
         ferngreen: "#588157",
         huntergreen: "#3A5A40",
         pakistangreen: "#283618",
+        earthyellow: "#DDA15E",
       },
     },
   },

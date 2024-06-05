@@ -25,7 +25,7 @@ function MainPage() {
             className="ml-6 self-center h-1 border-huntergreen"
           ></hr>
         </nav>
-        <div className="flex flex-wrap w-screen h-screen">
+        <div className="flex flex-wrap w-screen h-screen content-around">
           <section
             id="description"
             className="m-10 mt-0 mb-0 xl:ml-15 grow self-center font-poppins"
@@ -45,7 +45,7 @@ function MainPage() {
           </section>
           <nav
             id="sidenav"
-            className="flex self-center flex-col m-10 mt-1 grow font-antic text-[80px] sm:text-9xl md:text-[160px] lg:text-[160px] xl:text-[140px] 2xl:text-[140px] xl:mr-20 max-w-fit"
+            className="flex self-center flex-col m-10 ml-7 mt-1 grow font-antic text-[70px] sm:text-9xl md:text-[130px] lg:text-[160px] xl:text-[140px] 2xl:text-[140px] xl:mr-20 max-w-fit"
           >
             <Link
               to="/#skills"
@@ -65,24 +65,24 @@ function MainPage() {
           </nav>
         </div>
 
-        <section id="skills" className="bg-pakistangreen w-screen h-full p-9">
-          <h2 className="text-teagreen font-antic text-[80px] sm:text-9xl md:text-[160px] lg:text-[160px] xl:text-[140px] 2xl:text-[140px] xl:mr-20">
+        <section id="skills" className="bg-pakistangreen w-full h-full p-9">
+          <h2 className="mb-5 sm:mb-8 text-teagreen font-antic text-[80px] sm:text-9xl md:text-[160px] lg:text-[160px] xl:text-[140px] 2xl:text-[140px] xl:mr-20">
             SKILLS
           </h2>
-          <div className="flex w-2/6 justify-between text-xl text-teagreen md:text-2xl">
+          <div className="flex text-xl justify-evenly text-teagreen md:text-2xl flex-wrap">
             <Link
-              className="m-3 hover:italic hover:translate-x-2 hover:transition-transform ease-in duration-200 font-poppins"
+              className="m-2 hover:italic hover:translate-x-2 hover:transition-transform ease-in duration-200 font-poppins"
               to="/#home"
             >
               Home
             </Link>
-            <Link className="m-3 hover:italic hover:translate-x-2 hover:transition-transform ease-in duration-200 font-poppins">
+            <Link className="m-2 hover:italic hover:translate-x-2 hover:transition-transform ease-in duration-200 font-poppins">
               Projects
             </Link>
-            <Link className="m-3 hover:italic hover:translate-x-2 hover:transition-transform ease-in duration-200 font-poppins">
+            <Link className="m-2 hover:italic hover:translate-x-2 hover:transition-transform ease-in duration-200 font-poppins">
               About
             </Link>
-            <Link className="m-3 hover:italic hover:translate-x-2 hover:transition-transform ease-in duration-200 font-poppins">
+            <Link className="m-2 hover:italic hover:translate-x-2 hover:transition-transform ease-in duration-200 font-poppins">
               Contact
             </Link>
           </div>
@@ -91,12 +91,23 @@ function MainPage() {
             className="flex flex-wrap justify-around mt-12 md:text-3xl"
           >
             <section>
-              <h3 className="text-teagreen font-poppins underline">
-                front end
-              </h3>
+              <h3 className="text-earthyellow font-poppins">front end</h3>
+              <div className="text-3xl">
+                <p>JavaScript</p>
+                <p>ReactJS</p>
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>Tailwind</p>
+              </div>
             </section>
             <section>
-              <h3 className="text-teagreen font-poppins underline">back end</h3>
+              <h3 className="text-earthyellow font-poppins">back end</h3>
+              <div>
+                <p>PostgreSQL</p>
+                <p>Supabase</p>
+                <p>ExpressJS</p>
+                <p>Axios</p>
+              </div>
             </section>
           </div>
         </section>
