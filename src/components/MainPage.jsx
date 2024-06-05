@@ -92,11 +92,11 @@ function MainPage() {
           >
             <div
               id="section-one"
-              className="flex flex-wrap justify-around gap-5"
+              className="flex flex-wrap justify-around w-full gap-5"
             >
               <section
                 id="frontend"
-                className="flex flex-col text-center w-80 gap-3"
+                className="flex flex-col text-center max-w-md gap-3 md:text-lg lg:text-xl mb-5"
               >
                 <h3 className="text-earthyellow font-poppins text-2xl sm:text-3xl">
                   front end
@@ -122,7 +122,7 @@ function MainPage() {
               </section>
               <section
                 id="backend"
-                className="flex flex-col text-center w-80 gap-3"
+                className="flex flex-col text-center max-w-md gap-3 md:text-lg lg:text-xl mb-5"
               >
                 <h3 className="text-earthyellow font-poppins text-2xl sm:text-3xl">
                   back end
@@ -145,7 +145,7 @@ function MainPage() {
               </section>
               <section
                 id="testing"
-                className="flex flex-col text-center w-80 gap-3"
+                className="flex flex-col text-center max-w-md gap-3 md:text-lg lg:text-xl mb-5"
               >
                 <h3 className="text-earthyellow font-poppins text-2xl sm:text-3xl">
                   testing
@@ -166,11 +166,11 @@ function MainPage() {
 
             <div
               id="section-two"
-              className="flex flex-wrap justify-around gap-5"
+              className="flex flex-wrap justify-around w-full gap-5"
             >
               <section
                 id="teamwork"
-                className="flex flex-col text-center w-80 gap-3"
+                className="flex flex-col text-center max-w-md gap-3 md:text-lg lg:text-xl mb-5"
               >
                 <h3 className="text-earthyellow font-poppins text-2xl sm:text-3xl">
                   pair & team work
@@ -192,7 +192,7 @@ function MainPage() {
               </section>
               <section
                 id="other-technologies"
-                className="flex flex-col text-center w-80 gap-3"
+                className="flex flex-col text-center max-w-md gap-3 md:text-lg lg:text-xl mb-5"
               >
                 <h3 className="text-earthyellow font-poppins text-2xl sm:text-3xl">
                   other technologies
