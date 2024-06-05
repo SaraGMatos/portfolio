@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { IoLogoJavascript } from "react-icons/io5";
 
 function MainPage() {
   return (
@@ -88,20 +89,30 @@ function MainPage() {
           </div>
           <div
             id="skills-content"
-            className="flex flex-wrap justify-around mt-12 md:text-3xl"
+            className="flex flex-wrap justify-around mt-12"
           >
-            <section>
-              <h3 className="text-earthyellow font-poppins">front end</h3>
-              <div className="text-3xl">
-                <p>JavaScript</p>
-                <p>ReactJS</p>
-                <p>HTML</p>
-                <p>CSS</p>
-                <p>Tailwind</p>
-              </div>
+            <section id="frontend" className="flex flex-col text-center w-80">
+              <h3 className="text-earthyellow font-poppins text-2xl sm:text-3xl">
+                front end
+              </h3>
+              <p className="text-teagreen text-justify">
+                Planning and designing smart interfaces using visual tools like{" "}
+                <b>Figma</b> and <b>Excalidraw</b>.
+              </p>
+              <p className="text-teagreen text-justify">
+                Building user-friendly interfaces with web technologies such as
+                <b> JavaScript</b>, <b>HTML</b>, <b>CSS</b> and the much loved{" "}
+                <b>ReactJS</b>.
+              </p>
+              <p className="text-teagreen text-justify">
+                Adding some colours and sparkles using popular framaworks like{" "}
+                <b>TailwindCSS</b> or <b>Bootstrap</b>.
+              </p>
             </section>
-            <section>
-              <h3 className="text-earthyellow font-poppins">back end</h3>
+            <section id="backend" className="flex flex-col text-center w-80">
+              <h3 className="text-earthyellow font-poppins text-2xl sm:text-3xl">
+                back end
+              </h3>
               <div>
                 <p>PostgreSQL</p>
                 <p>Supabase</p>
