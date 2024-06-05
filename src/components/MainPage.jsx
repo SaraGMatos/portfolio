@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function MainPage() {
   return (
     <div id="home" className="w-screen">
-      <div className="h-screen">
+      <div>
         <nav id="socials" className="flex m-4 xl:ml-5 font-poppins text-base">
           <Link
             to="https://www.linkedin.com/in/saragmatos"
@@ -94,7 +94,10 @@ function MainPage() {
               id="section-one"
               className="flex flex-wrap justify-around gap-5"
             >
-              <section id="frontend" className="flex flex-col text-center w-80">
+              <section
+                id="frontend"
+                className="flex flex-col text-center w-80 gap-3"
+              >
                 <h3 className="text-earthyellow font-poppins text-2xl sm:text-3xl">
                   front end
                 </h3>
@@ -117,7 +120,10 @@ function MainPage() {
                   <b>TailwindCSS</b> or <b>Bootstrap</b>.
                 </p>
               </section>
-              <section id="backend" className="flex flex-col text-center w-80">
+              <section
+                id="backend"
+                className="flex flex-col text-center w-80 gap-3"
+              >
                 <h3 className="text-earthyellow font-poppins text-2xl sm:text-3xl">
                   back end
                 </h3>
@@ -137,7 +143,10 @@ function MainPage() {
                   Exploring the world of OOP using <b>C#</b> and <b>Java</b>.
                 </p>
               </section>
-              <section id="testing" className="flex flex-col text-center w-80">
+              <section
+                id="testing"
+                className="flex flex-col text-center w-80 gap-3"
+              >
                 <h3 className="text-earthyellow font-poppins text-2xl sm:text-3xl">
                   testing
                 </h3>
@@ -159,7 +168,10 @@ function MainPage() {
               id="section-two"
               className="flex flex-wrap justify-around gap-5"
             >
-              <section id="teamwork" className="flex flex-col text-center w-80">
+              <section
+                id="teamwork"
+                className="flex flex-col text-center w-80 gap-3"
+              >
                 <h3 className="text-earthyellow font-poppins text-2xl sm:text-3xl">
                   pair & team work
                 </h3>
@@ -180,7 +192,7 @@ function MainPage() {
               </section>
               <section
                 id="other-technologies"
-                className="flex flex-col text-center w-80"
+                className="flex flex-col text-center w-80 gap-3"
               >
                 <h3 className="text-earthyellow font-poppins text-2xl sm:text-3xl">
                   other technologies
