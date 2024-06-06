@@ -345,8 +345,8 @@ function MainPage() {
 
         <section id="projects-content">
           <article>
-            <h3 className="text-huntergreen font-poppins text-3xl sm:text-3xl w-full text-center mb-6">
-              NC News API
+            <h3 className="text-huntergreen font-poppins text-3xl sm:text-3xl md:text-4xl w-full text-center mb-6 mt-11 font-semibold hover:text-buff hover:scale-125 transition-all ease-in-out">
+              <Link>NC News API</Link>
             </h3>
             <div
               id="project-content"
@@ -358,11 +358,14 @@ function MainPage() {
               />
               <div
                 id="text"
-                className="text-justify flex flex-col gap-4 self-center mb-6 md:text-lg lg:text-xl xl:text-2xl"
+                className="text-huntergreen text-justify flex flex-col gap-3 self-center mb-6 md:text-lg lg:text-xl xl:text-2xl"
               >
-                <p>A RESTful API for a Reddit-like web app.</p>
                 <p>
-                  Served with ExpressJS and developed using Node.js and Postfres
+                  A <b>RESTful API</b> for a Reddit-like web app.
+                </p>
+                <p>
+                  Served with <b>ExpressJS</b> and developed using{" "}
+                  <b>Node.js</b> and <b>Postgres </b>
                   as database service.
                 </p>
                 <p>
@@ -372,6 +375,17 @@ function MainPage() {
                 <p>
                   It was developed in just five days during the Northcoders
                   Software Engineering bootcamp.
+                </p>
+                <p>
+                  Feel free to access the GitHub repo{" "}
+                  <Link
+                    to="https://github.com/SaraGMatos/backend-project"
+                    target="_blank"
+                    className="font-bold underline hover:text-buff transition-all ease-in-out"
+                  >
+                    here
+                  </Link>
+                  .
                 </p>
               </div>
             </div>
