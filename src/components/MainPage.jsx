@@ -247,22 +247,39 @@ function MainPage() {
                   id="first-row-technologies"
                   className="flex flex-wrap w-full justify-evenly text-5xl sm:text-7xl text-teagreen"
                 >
-                  <Link>
+                  <Link
+                    to="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                    target="_blank"
+                  >
+                    <IoLogoJavascript className="hover:text-earthyellow" />
+                  </Link>
+                  <Link to="https://nodejs.org/en" target="_blank">
                     <SiNodedotjs className="hover:text-earthyellow" />
                   </Link>
-
-                  <IoLogoJavascript className="hover:text-earthyellow" />
-                  <SiPostgresql className="hover:text-earthyellow" />
-                  <SiJest className="hover:text-earthyellow" />
+                  <Link to="https://www.postgresql.org/" target="_blank">
+                    <SiPostgresql className="hover:text-earthyellow" />
+                  </Link>
+                  <Link to="https://jestjs.io/" target="_blank">
+                    <SiJest className="hover:text-earthyellow" />
+                  </Link>
                 </div>
                 <div
                   id="first-row-technologies"
                   className="flex flex-wrap w-full justify-evenly text-5xl sm:text-7xl text-teagreen"
                 >
-                  <SiExpress className="hover:text-earthyellow" />
-                  <SiReact className="hover:text-earthyellow" />
-                  <SiReactrouter className="hover:text-earthyellow" />
-                  <SiTailwindcss className="hover:text-earthyellow" />
+                  <Link to="https://expressjs.com/" target="_blank">
+                    {" "}
+                    <SiExpress className="hover:text-earthyellow" />
+                  </Link>
+                  <Link to="https://react.dev/" target="_blank">
+                    <SiReact className="hover:text-earthyellow" />
+                  </Link>
+                  <Link to="https://reactrouter.com/en/main" target="_blank">
+                    <SiReactrouter className="hover:text-earthyellow" />
+                  </Link>
+                  <Link to="https://tailwindcss.com/" target="_blank">
+                    <SiTailwindcss className="hover:text-earthyellow" />
+                  </Link>
                 </div>
               </div>
             </div>
@@ -281,8 +298,13 @@ function MainPage() {
                   id="learning-icons"
                   className="flex flex-wrap w-full justify-evenly text-5xl sm:text-7xl text-teagreen"
                 >
-                  <BiLogoTypescript className="hover:text-earthyellow" />
-                  <BiLogoJava className="hover:text-earthyellow" />
+                  <Link to="https://www.typescriptlang.org/" target="_blank">
+                    {" "}
+                    <BiLogoTypescript className="hover:text-earthyellow" />
+                  </Link>
+                  <Link to="https://dev.java/" target="_blank">
+                    <BiLogoJava className="hover:text-earthyellow" />
+                  </Link>
                 </div>
               </div>
             </div>
