@@ -344,9 +344,14 @@ function MainPage() {
         </div>
 
         <section id="projects-content">
-          <article>
+          <article id="news-api">
             <h3 className="text-huntergreen font-poppins text-3xl sm:text-3xl md:text-4xl w-full text-center mb-6 mt-11 font-semibold hover:text-buff hover:scale-125 transition-all ease-in-out">
-              <Link>NC News API</Link>
+              <Link
+                to="https://github.com/SaraGMatos/backend-project"
+                target="_blank"
+              >
+                NC News API
+              </Link>
             </h3>
             <div
               id="project-content"
@@ -354,7 +359,7 @@ function MainPage() {
             >
               <img
                 src="https://i.postimg.cc/hGVyvZhj/Screenshot-2024-06-06-at-15-37-24.png"
-                className="mb-6 rounded-xl w-3/5 sm:w-1/2 md:max-w-[334px] self-center sm:self-start sm:mr-5"
+                className="mb-6 rounded-xl w-3/5 sm:w-1/2 md:max-w-[334px] self-center sm:self-start sm:mr-7"
               />
               <div
                 id="text"
@@ -377,7 +382,7 @@ function MainPage() {
                   Software Engineering bootcamp.
                 </p>
                 <p>
-                  Feel free to access the GitHub repo{" "}
+                  Feel free to access the <b>GitHub</b> repo{" "}
                   <Link
                     to="https://github.com/SaraGMatos/backend-project"
                     target="_blank"
@@ -388,6 +393,64 @@ function MainPage() {
                   .
                 </p>
               </div>
+            </div>
+          </article>
+
+          <article id="news-fe">
+            <h3 className="text-huntergreen font-poppins text-3xl sm:text-3xl md:text-4xl w-full text-center mb-6 mt-11 font-semibold hover:text-buff hover:scale-125 transition-all ease-in-out">
+              <Link to="https://github.com/SaraGMatos/nc-news" target="_blank">
+                NC News
+              </Link>
+            </h3>
+            <div
+              id="project-content"
+              className="flex flex-col-reverse sm:flex-row md:justify-evenly ml-3 mr-3"
+            >
+              <div
+                id="text"
+                className="text-huntergreen text-justify flex flex-col gap-3 self-center mb-6 md:text-lg lg:text-xl xl:text-2xl"
+              >
+                <p>
+                  This is the <b>front-end result</b> of the full-stack project
+                  that started with the NC News REST API.
+                </p>
+                <p>
+                  Built using the amazing <b>ReactJS</b> framework,
+                  <b> Node.js</b> and <b>vanilla CSS</b>.
+                </p>
+                <p>
+                  I used <b>Axios</b>, a browser-compatible HTTP client, to
+                  contact the API.
+                </p>
+                <p>
+                  It was planned, designed & developed in a week during the
+                  Northcoders Software Engineering bootcamp.
+                </p>
+                <p>Please note that, for now, it is best viewed on mobile!</p>
+                <p>
+                  Feel free to access the <b>GitHub</b> repo{" "}
+                  <Link
+                    to="https://github.com/SaraGMatos/nc-news"
+                    target="_blank"
+                    className="font-bold underline hover:text-buff transition-all ease-in-out"
+                  >
+                    here
+                  </Link>{" "}
+                  or explore the app, hosted on <b>Netlify</b>,{" "}
+                  <Link
+                    to="https://my-ncnews.netlify.app/"
+                    target="_blank"
+                    className="font-bold underline hover:text-buff transition-all ease-in-out"
+                  >
+                    here
+                  </Link>
+                  .
+                </p>
+              </div>
+              <img
+                src="https://i.postimg.cc/FsKZMqHQ/Screenshot-2024-06-06-at-18-30-45.png"
+                className="mb-6 rounded-xl w-3/5 sm:w-1/2 md:max-w-[334px] self-center sm:self-start sm:ml-7"
+              />
             </div>
           </article>
         </section>
