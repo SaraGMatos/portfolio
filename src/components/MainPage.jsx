@@ -318,11 +318,11 @@ function MainPage() {
         </div>
       </section>
 
-      <section id="projects" className="bg bg-teagreen w-full p-9">
+      <section id="projects" className="bg bg-beige w-full p-9">
         <h2 className="mb-5 sm:mb-8 text-buff font-antic text-[70px] sm:text-9xl md:text-[160px] lg:text-[160px] xl:text-[140px] 2xl:text-[140px] xl:mr-20">
           PROJECTS
         </h2>
-        <div className="flex text-xl justify-evenly text-buff md:text-2xl flex-wrap">
+        <div className="flex text-xl justify-evenly text-buff md:text-2xl flex-wrap mb-7">
           <Link
             className="m-2 hover:italic hover:translate-x-2 hover:transition-transform ease-in duration-200 font-poppins"
             to="/#home"
@@ -342,6 +342,41 @@ function MainPage() {
             Contact
           </Link>
         </div>
+
+        <section id="projects-content">
+          <article>
+            <h3 className="text-huntergreen font-poppins text-3xl sm:text-3xl w-full text-center mb-6">
+              NC News API
+            </h3>
+            <div
+              id="project-content"
+              className="flex flex-col sm:flex-row md:justify-evenly ml-3 mr-3"
+            >
+              <img
+                src="https://i.postimg.cc/hGVyvZhj/Screenshot-2024-06-06-at-15-37-24.png"
+                className="mb-6 rounded-xl w-3/5 sm:w-1/2 md:max-w-[334px] self-center sm:self-start sm:mr-5"
+              />
+              <div
+                id="text"
+                className="text-justify flex flex-col gap-4 self-center mb-6 md:text-lg lg:text-xl xl:text-2xl"
+              >
+                <p>A RESTful API for a Reddit-like web app.</p>
+                <p>
+                  Served with ExpressJS and developed using Node.js and Postfres
+                  as database service.
+                </p>
+                <p>
+                  I thoroughly enjoyed building this humble API as my very first
+                  solo backend project.
+                </p>
+                <p>
+                  It was developed in just five days during the Northcoders
+                  Software Engineering bootcamp.
+                </p>
+              </div>
+            </div>
+          </article>
+        </section>
       </section>
     </div>
   );
