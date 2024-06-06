@@ -17,6 +17,7 @@ export default {
         pakistangreen: "#283618",
         earthyellow: "#DDA15E",
         buff: "#D4A373",
+        almond: "#EDE0D4",
       },
     },
   },
