@@ -64,7 +64,10 @@ function MainPage() {
           >
             SKILLS
           </Link>
-          <Link className="xl:m-3 text-ferngreen hover:italic hover:translate-x-4 hover:transition-transform ease-in duration-200">
+          <Link
+            to="/#projects"
+            className="xl:m-3 text-ferngreen hover:italic hover:translate-x-4 hover:transition-transform ease-in duration-200"
+          >
             PROJECTS
           </Link>
           <Link className="xl:m-3 text-ferngreen hover:italic hover:translate-x-4 hover:transition-transform ease-in duration-200">
@@ -87,7 +90,10 @@ function MainPage() {
           >
             Home
           </Link>
-          <Link className="m-2 hover:italic hover:translate-x-2 hover:transition-transform ease-in duration-200 font-poppins">
+          <Link
+            to="/#projects"
+            className="m-2 hover:italic hover:translate-x-2 hover:transition-transform ease-in duration-200 font-poppins"
+          >
             Projects
           </Link>
           <Link className="m-2 hover:italic hover:translate-x-2 hover:transition-transform ease-in duration-200 font-poppins">
@@ -309,6 +315,32 @@ function MainPage() {
               </div>
             </div>
           </section>
+        </div>
+      </section>
+
+      <section id="projects" className="bg bg-teagreen w-full p-9">
+        <h2 className="mb-5 sm:mb-8 text-buff font-antic text-[70px] sm:text-9xl md:text-[160px] lg:text-[160px] xl:text-[140px] 2xl:text-[140px] xl:mr-20">
+          PROJECTS
+        </h2>
+        <div className="flex text-xl justify-evenly text-buff md:text-2xl flex-wrap">
+          <Link
+            className="m-2 hover:italic hover:translate-x-2 hover:transition-transform ease-in duration-200 font-poppins"
+            to="/#home"
+          >
+            Home
+          </Link>
+          <Link
+            to="/#skills"
+            className="m-2 hover:italic hover:translate-x-2 hover:transition-transform ease-in duration-200 font-poppins"
+          >
+            Skills
+          </Link>
+          <Link className="m-2 hover:italic hover:translate-x-2 hover:transition-transform ease-in duration-200 font-poppins">
+            About
+          </Link>
+          <Link className="m-2 hover:italic hover:translate-x-2 hover:transition-transform ease-in duration-200 font-poppins">
+            Contact
+          </Link>
         </div>
       </section>
     </div>

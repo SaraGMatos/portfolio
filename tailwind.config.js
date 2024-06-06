@@ -16,6 +16,7 @@ export default {
         huntergreen: "#3A5A40",
         pakistangreen: "#283618",
         earthyellow: "#DDA15E",
+        buff: "#D4A373",
       },
     },
   },
