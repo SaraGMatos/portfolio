@@ -453,6 +453,116 @@ function MainPage() {
               />
             </div>
           </article>
+
+          <article id="skillmatch">
+            <h3 className="text-huntergreen font-poppins text-3xl sm:text-3xl md:text-4xl w-full text-center mb-6 mt-11 font-semibold hover:text-buff hover:scale-125 transition-all ease-in-out">
+              <Link
+                to="https://github.com/SaraGMatos/skillmatch"
+                target="_blank"
+              >
+                SkillMatch
+              </Link>
+            </h3>
+            <div
+              id="project-content"
+              className="flex flex-col sm:flex-row md:justify-evenly ml-3 mr-3"
+            >
+              <img
+                src="https://i.postimg.cc/LX295jJj/Screenshot-2024-06-06-at-20-45-53.png"
+                className="mb-6 rounded-xl w-3/5 sm:w-1/2 md:max-w-[334px] self-center sm:self-start sm:mr-7"
+              />
+              <div
+                id="text"
+                className="text-huntergreen text-justify flex flex-col gap-3 self-center mb-6 md:text-lg lg:text-xl xl:text-2xl"
+              >
+                <p>
+                  A <b>full-stack application</b> that was brought from concept
+                  to life in eight days as a final group project during the
+                  Northcoders Software Engineering bootcamp.
+                </p>
+                <p>
+                  SkillMatch is a community-driven app that allows users to do
+                  skill exchanges matching anc connecting with people by their
+                  abilities and sought interests.
+                </p>
+                <p>
+                  Developed using the much loved trio of <b>ReactJS</b>,{" "}
+                  <b>Node.js</b> and vanilla <b>CSS</b>.
+                </p>
+                <p>
+                  This app integrates a user authentication system provided by{" "}
+                  <b>Supabase</b>, a cloud-based service that we also use as
+                  backend.
+                </p>
+                <p>
+                  In addition, SkillMatch offers its users the opportunity to
+                  connect with their matches through a live chat, implemented
+                  using <b>Socket.IO</b>.
+                </p>
+                <p>
+                  Feel free to access the <b>GitHub</b> repo{" "}
+                  <Link
+                    to="https://github.com/SaraGMatos/skillmatch"
+                    target="_blank"
+                    className="font-bold underline hover:text-buff transition-all ease-in-out"
+                  >
+                    here
+                  </Link>{" "}
+                  or explore the app, hosted on <b>Netlify</b>,{" "}
+                  <Link
+                    to="https://skillmatched.netlify.app/"
+                    target="_blank"
+                    className="font-bold underline hover:text-buff transition-all ease-in-out"
+                  >
+                    here
+                  </Link>
+                  . Note that SkillMatch is best experienced in mobile.
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <article id="portfolio">
+            <h3 className="text-huntergreen font-poppins text-3xl sm:text-3xl md:text-4xl w-full text-center mb-6 mt-11 font-semibold hover:text-buff hover:scale-125 transition-all ease-in-out">
+              Portfolio
+            </h3>
+            <div
+              id="project-content"
+              className="flex flex-col-reverse sm:flex-row md:justify-evenly ml-3 mr-3"
+            >
+              <div
+                id="text"
+                className="text-huntergreen text-justify flex flex-col gap-3 self-center mb-6 md:text-lg lg:text-xl xl:text-2xl"
+              >
+                <p>
+                  A humble but sleek-ish (I hope?) first portfolio page. I
+                  wanted to make something that I could use to expand my CV and
+                  that showcased my work and myself in a more personal way.
+                </p>
+                <p>
+                  Built with <b>ReactJS</b> and styled with <b>TailwindCSS</b>,
+                  this wee page can be viewed in a range of devices, so feel
+                  free to open it in your phone, tablet or laptop!
+                </p>
+
+                <p>
+                  Feel free to access the <b>GitHub</b> repo{" "}
+                  <Link
+                    to="https://github.com/SaraGMatos/portfolio"
+                    target="_blank"
+                    className="font-bold underline hover:text-buff transition-all ease-in-out"
+                  >
+                    here
+                  </Link>{" "}
+                  and do reach out if you have any comments or suggestions .
+                </p>
+              </div>
+              <img
+                src="https://i.postimg.cc/7Ldx1jtM/Screenshot-2024-06-06-at-21-25-13.png"
+                className="mb-6 rounded-xl w-3/5 sm:w-1/2 md:max-w-[334px] self-center sm:self-start sm:ml-7"
+              />
+            </div>
+          </article>
         </section>
       </section>
     </div>
