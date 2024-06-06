@@ -251,13 +251,13 @@ function MainPage() {
                     to="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
                     target="_blank"
                   >
-                    <IoLogoJavascript className="hover:text-earthyellow" />
+                    <IoLogoJavascript className="hover:text-earthyellow " />
                   </Link>
                   <Link to="https://nodejs.org/en" target="_blank">
-                    <SiNodedotjs className="hover:text-earthyellow" />
+                    <SiNodedotjs className="hover:text-earthyellow " />
                   </Link>
                   <Link to="https://www.postgresql.org/" target="_blank">
-                    <SiPostgresql className="hover:text-earthyellow" />
+                    <SiPostgresql className="hover:text-earthyellow " />
                   </Link>
                   <Link to="https://jestjs.io/" target="_blank">
                     <SiJest className="hover:text-earthyellow" />
