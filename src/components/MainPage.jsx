@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import { IoLogoJavascript } from "react-icons/io5";
+import { BiLogoTypescript, BiLogoJava } from "react-icons/bi";
+
 import {
   SiJest,
   SiExpress,
@@ -234,9 +236,55 @@ function MainPage() {
             className="flex flex-col text-center w-full gap-3 md:text-lg lg:text-xl mb-5"
           >
             <div>
-              <h3 className="text-earthyellow font-poppins text-2xl sm:text-3xl">
-                favourites
+              <h3 className="text-earthyellow font-poppins text-2xl sm:text-3xl mb-5">
+                some favourites
               </h3>
+              <div
+                id="technologies-container"
+                className="flex flex-col items-center gap-5"
+              >
+                <div
+                  id="first-row-technologies"
+                  className="flex flex-wrap w-full justify-evenly text-5xl sm:text-7xl text-teagreen"
+                >
+                  <Link>
+                    <SiNodedotjs className="hover:text-earthyellow" />
+                  </Link>
+
+                  <IoLogoJavascript className="hover:text-earthyellow" />
+                  <SiPostgresql className="hover:text-earthyellow" />
+                  <SiJest className="hover:text-earthyellow" />
+                </div>
+                <div
+                  id="first-row-technologies"
+                  className="flex flex-wrap w-full justify-evenly text-5xl sm:text-7xl text-teagreen"
+                >
+                  <SiExpress className="hover:text-earthyellow" />
+                  <SiReact className="hover:text-earthyellow" />
+                  <SiReactrouter className="hover:text-earthyellow" />
+                  <SiTailwindcss className="hover:text-earthyellow" />
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section
+            id="learning"
+            className="flex flex-col text-center w-full gap-3 md:text-lg lg:text-xl mb-5"
+          >
+            <div>
+              <h3 className="text-earthyellow font-poppins text-2xl sm:text-3xl mb-5">
+                exploring
+              </h3>
+              <div id="learning-container" className="flex items-center gap-5">
+                <div
+                  id="learning-icons"
+                  className="flex flex-wrap w-full justify-evenly text-5xl sm:text-7xl text-teagreen"
+                >
+                  <BiLogoTypescript className="hover:text-earthyellow" />
+                  <BiLogoJava className="hover:text-earthyellow" />
+                </div>
+              </div>
             </div>
           </section>
         </div>
