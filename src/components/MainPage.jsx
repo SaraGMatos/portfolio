@@ -406,7 +406,7 @@ function MainPage() {
               />
               <div
                 id="text"
-                className="text-huntergreen text-justify flex flex-col gap-3 self-center mb-6 md:text-lg lg:text-xl xl:text-2xl"
+                className="text-huntergreen text-justify flex flex-col gap-3 self-center mb-6 text-lg md:text-lg lg:text-xl xl:text-2xl"
               >
                 <p>
                   A <b>RESTful API</b> for a Reddit-like web app.
@@ -451,7 +451,7 @@ function MainPage() {
             >
               <div
                 id="text"
-                className="text-huntergreen text-justify flex flex-col gap-3 self-center mb-6 md:text-lg lg:text-xl xl:text-2xl"
+                className="text-huntergreen text-justify flex flex-col gap-3 self-center mb-6 text-lg md:text-lg lg:text-xl xl:text-2xl"
               >
                 <p>
                   This is the <b>front-end result</b> of the full-stack project
@@ -516,7 +516,7 @@ function MainPage() {
               />
               <div
                 id="text"
-                className="text-huntergreen text-justify flex flex-col gap-3 self-center mb-6 md:text-lg lg:text-xl xl:text-2xl"
+                className="text-huntergreen text-justify flex flex-col gap-3 self-center mb-6 text-lg md:text-lg lg:text-xl xl:text-2xl"
               >
                 <p>
                   A <b>full-stack application</b> that was brought from concept
@@ -575,7 +575,7 @@ function MainPage() {
             >
               <div
                 id="text"
-                className="text-huntergreen text-justify flex flex-col gap-3 self-center mb-6 md:text-lg lg:text-xl xl:text-2xl"
+                className="text-huntergreen text-justify flex flex-col gap-3 self-center mb-6 text-lg md:text-lg lg:text-xl xl:text-2xl"
               >
                 <p>
                   A humble but sleek-ish (I hope?) first portfolio page. I
