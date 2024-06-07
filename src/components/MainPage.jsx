@@ -628,7 +628,10 @@ function MainPage() {
           </Link>
         </div>
 
-        <section id="about-content" className="flex flex-col md:flex-row gap-5">
+        <article
+          id="about-content-one"
+          className="flex flex-col md:flex-row gap-5"
+        >
           <div className="flex flex-col md:flex-row gap-5">
             <img
               src={profilePic}
@@ -668,8 +671,77 @@ function MainPage() {
               </p>
             </div>
           </div>
-        </section>
+        </article>
+
         <hr className="w-vw border-earthyellow border-2 m-7" />
+
+        <article id="about-content-two" className="flex flex-col gap-6">
+          <div className="flex flex-col w-vw">
+            <img
+              src="https://i.postimg.cc/kgSnGtCF/Screenshot-2024-06-07-at-15-42-40.png"
+              className="self-center rounded-xl mt-4 mb-5"
+            />
+            <div
+              id="text-container"
+              className="flex flex-col sm:flex-col md:flex-row"
+            >
+              <div
+                id="profile-text-left"
+                className="flex flex-col gap-3 text-teagreen text-lg lg:text-xl xl:text-2xl lg:gap-7 xl:gap-11 leading-relaxed text-justify m-3 md:pr-5 lg:pr-7 xl:pr-8 md:w-1/2"
+              >
+                <h3 className="text-earthyellow font-poppins text-3xl sm:text-3xl md:text-4xl w-full text-center">
+                  Work
+                </h3>
+                <p>
+                  When it comes to work, I thrive in goal-oriented environments
+                  where purpose and pragmatism drive progress. My teaching
+                  career has instilled in me the importance of clear
+                  communication and building respectful and friendly
+                  interpersonal relationships, skills I am very proud of.
+                </p>
+                <p>
+                  Always seeking opportunities to grow and learn, I can
+                  confidently say that I am comfortable stepping out of my
+                  comfort zone and embracing the challenges that come with it.
+                </p>
+                <p>
+                  Coding wise, I strive for clean and readable code and I
+                  personally prefer a more elaborate piece of code that is
+                  robust and reliable over a shorter, cryptic solution. I enjoy
+                  tackling every problem as an opportunity to pick up new
+                  approaches and patterns.
+                </p>
+              </div>
+              <div
+                id="profile-text-right"
+                className="flex flex-col gap-3 text-teagreen text-lg lg:text-xl xl:text-2xl lg:gap-7 xl:gap-11 leading-relaxed text-justify m-3 md:pl-5 lg:pl-7 xl:pl-8 md:w-1/2"
+              >
+                <h3 className="text-earthyellow font-poppins text-3xl sm:text-3xl md:text-4xl w-full text-center">
+                  Life
+                </h3>
+                <p>
+                  In my spare time I enjoy giving myself away to a book. I am
+                  currently captivated by contemporary Latinamerican narrative
+                  written by women. Give me a shout if you need a book
+                  recommendation!
+                </p>
+                <p>
+                  I love art and losing track of time in museums and exhibitions
+                  is another of my favourite pastimes, along with going to live
+                  concerts whenever I can - I find they are the perfect excuse
+                  to travel and explore new places.
+                </p>
+                <p>
+                  Coming from a place where there is not a lot of rainfall, I
+                  can't help it but to feel stunned by the green and leafy
+                  nature in the beautiful Scottish countryside, reason why you
+                  will find me hiking every other weekend accompanied by my dog
+                  Mocha.
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
       </section>
     </div>
   );
