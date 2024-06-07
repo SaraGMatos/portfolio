@@ -629,39 +629,47 @@ function MainPage() {
         </div>
 
         <section id="about-content" className="flex flex-col md:flex-row gap-5">
-          <img
-            src={profilePic}
-            className={`${pictureRadius} w-9/12 sm:w-8/12 md:w-5/12 self-center`}
-          />
-          <div
-            id="profile-text"
-            className="text-teagreen text-lg leading-relaxed text-justify self-center m-3 md:ml-4"
-          >
-            <p>
-              Born in sunny Gran Canaria, I migrated to Edinburgh in the Summer
-              of 2016 and I have been fortunate enough to see Scotland as my
-              home since then.
-              <br />I hold a degree in Spanish Language and Hispanic Literature
-              and a master's in Teaching Spanish as a Second Language, having
-              graduated with Honours from both.
-              <br />
-              Professionally, I have dedicated myself to hospitality and
-              education, working as a Spanish teacher, tutor and proofreader.
-              <br />
-              At around September 2023, my curiosity led me to do a five-day
-              coding challenge; I enjoyed it so much that I started to learn
-              programming on the side while working full-time as a teacher. By
-              the end of the year I was seriously considering changing careers
-              as I found an unexpected joy in coding, and decided to enrol in
-              the Northcoders Software Engineering bootcamp, from which I
-              graduated at the start of June.
-              <br />
-              Despite the obvious steep learning curve, the course has equipped
-              me with some decent programming skills and a nice tech stack to
-              expand from.
-            </p>
+          <div className="flex flex-col md:flex-row gap-5">
+            <img
+              src={profilePic}
+              className={`${pictureRadius} w-9/12 sm:w-8/12 md:w-5/12 self-center`}
+            />
+            <div
+              id="profile-text"
+              className="flex flex-col gap-3 text-teagreen text-lg lg:text-xl xl:text-2xl lg:gap-7 xl:gap-11 leading-relaxed text-justify self-center m-3 md:ml-4"
+            >
+              <p>
+                Born in sunny Gran Canaria, I migrated to Edinburgh in the
+                Summer of 2016 and I have been fortunate enough to see Scotland
+                as my home since then.
+              </p>
+              <p>
+                I hold a degree in Spanish Language and Hispanic Literature and
+                a master's in Teaching Spanish as a Second Language, having
+                graduated with Honours from both.
+              </p>
+              <p>
+                Professionally, I have dedicated myself to hospitality and
+                education, working as a Spanish teacher, tutor and proofreader.
+              </p>
+              <p>
+                At around September 2023, my curiosity led me to do a five-day
+                coding challenge; I enjoyed it so much that I started to learn
+                programming on the side while working full-time as a teacher. By
+                the end of the year I was seriously considering changing careers
+                as I found an unexpected joy in coding, and decided to enrol in
+                the Northcoders Software Engineering bootcamp, from which I
+                graduated at the start of June.
+              </p>
+              <p>
+                Despite the obvious steep learning curve, the course has
+                equipped me with some decent programming skills and a nice tech
+                stack to expand from.
+              </p>
+            </div>
           </div>
         </section>
+        <hr className="w-vw border-earthyellow border-2 m-7" />
       </section>
     </div>
   );
