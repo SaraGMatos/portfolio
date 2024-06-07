@@ -786,6 +786,17 @@ function MainPage() {
             About
           </Link>
         </div>
+
+        <article>
+          <p>
+            You have all my contact details on my CV, which you can download by
+            clicking <Link>here</Link>
+          </p>
+          <p>
+            Or if you prefer, feel free to use any of the mediums below to reach
+            out:
+          </p>
+        </article>
       </section>
     </div>
   );
