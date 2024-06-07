@@ -726,10 +726,10 @@ function MainPage() {
                   recommendation!
                 </p>
                 <p>
-                  I love art and losing track of time in museums and exhibitions
-                  is another of my favourite pastimes, along with going to live
-                  concerts whenever I can - I find they are the perfect excuse
-                  to travel and explore new places.
+                  I love art, and losing track of time in museums and
+                  exhibitions is another of my favourite pastimes, along with
+                  going to live concerts whenever I can - I find they are the
+                  perfect excuse to travel and explore new places.
                 </p>
                 <p>
                   Coming from a place where there is not a lot of rainfall, I
