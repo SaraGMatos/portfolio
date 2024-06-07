@@ -11,8 +11,33 @@ import {
   SiTailwindcss,
   SiReactrouter,
 } from "react-icons/si";
+import { useEffect, useState } from "react";
 
 function MainPage() {
+  const width = window.screen.width;
+  const [screenWidth, setScreenWidth] = useState(width);
+  const [profilePic, setProfilePic] = useState(
+    "https://i.postimg.cc/VvB0QbVR/Screenshot-2024-06-07-at-14-17-07.png"
+  );
+  const [pictureRadius, setPictureRadius] = useState("rounded-full");
+
+  useEffect(() => {
+    if (screenWidth < 768) {
+      setProfilePic(
+        "https://i.postimg.cc/VvB0QbVR/Screenshot-2024-06-07-at-14-17-07.png"
+      );
+      setPictureRadius("rounded-full");
+    } else {
+      setProfilePic(
+        "https://i.postimg.cc/nLzbfbC9/PXL-20240421-144759058-3.jpg"
+      );
+      setPictureRadius("rounded-2xl");
+    }
+    window.onresize = () => {
+      setScreenWidth(window.screen.width);
+    };
+  }, [width]);
+
   return (
     <div id="home" className="w-screen">
       <nav id="socials" className="flex m-4 xl:ml-5 font-poppins text-base">
@@ -99,7 +124,10 @@ function MainPage() {
           >
             Projects
           </Link>
-          <Link className="m-2 hover:italic hover:translate-x-2 hover:transition-transform ease-in duration-200 font-poppins">
+          <Link
+            to="/#about"
+            className="m-2 hover:italic hover:translate-x-2 hover:transition-transform ease-in duration-200 font-poppins"
+          >
             About
           </Link>
           <Link className="m-2 hover:italic hover:translate-x-2 hover:transition-transform ease-in duration-200 font-poppins">
@@ -576,7 +604,7 @@ function MainPage() {
         <h2 className="mb-5 sm:mb-8 text-earthyellow font-antic text-[70px] sm:text-9xl md:text-[160px] lg:text-[160px] xl:text-[140px] 2xl:text-[140px] xl:mr-20">
           ABOUT
         </h2>
-        <div className="flex text-xl justify-evenly text-earthyellow md:text-2xl flex-wrap mb-7">
+        <div className="flex text-xl justify-evenly text-earthyellow md:text-2xl flex-wrap mb-9">
           <Link
             className="m-2 hover:italic hover:translate-x-2 hover:transition-transform ease-in duration-200 font-poppins"
             to="/#home"
@@ -600,7 +628,40 @@ function MainPage() {
           </Link>
         </div>
 
-        <section id="about-content"></section>
+        <section id="about-content" className="flex flex-col md:flex-row gap-5">
+          <img
+            src={profilePic}
+            className={`${pictureRadius} w-9/12 sm:w-8/12 md:w-5/12 self-center`}
+          />
+          <div
+            id="profile-text"
+            className="text-teagreen text-lg leading-relaxed text-justify self-center m-3 md:ml-4"
+          >
+            <p>
+              Born in sunny Gran Canaria, I migrated to Edinburgh in the Summer
+              of 2016 and I have been fortunate enough to see Scotland as my
+              home since then.
+              <br />I hold a degree in Spanish Language and Hispanic Literature
+              and a master's in Teaching Spanish as a Second Language, having
+              graduated with Honours from both.
+              <br />
+              Professionally, I have dedicated myself to hospitality and
+              education, working as a Spanish teacher, tutor and proofreader.
+              <br />
+              At around September 2023, my curiosity led me to do a five-day
+              coding challenge; I enjoyed it so much that I started to learn
+              programming on the side while working full-time as a teacher. By
+              the end of the year I was seriously considering changing careers
+              as I found an unexpected joy in coding, and decided to enrol in
+              the Northcoders Software Engineering bootcamp, from which I
+              graduated at the start of June.
+              <br />
+              Despite the obvious steep learning curve, the course has equipped
+              me with some decent programming skills and a nice tech stack to
+              expand from.
+            </p>
+          </div>
+        </section>
       </section>
     </div>
   );
