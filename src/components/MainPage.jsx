@@ -809,17 +809,25 @@ function MainPage() {
           </p>
         </section>
         <article
-          id="contact-container"
+          id="contact-container-1"
           className="mt-7 flex flex-wrap w-full justify-evenly text-5xl sm:text-7xl text-pakistangreen"
         >
           <Link to="mailto:saragarciamatos@gmail.com">
             <MdOutlineMail className="hover:text-buff" />
           </Link>
-          <Link to="tel:+447591594294">
+          <Link to="tel:+447591594294" target="_blank">
             <IoIosCall className="hover:text-buff" />
           </Link>
-          <Link to="https://wa.me/447591594294">
+          <Link to="https://wa.me/447591594294" target="_blank">
             <FaWhatsapp className="hover:text-buff" />
+          </Link>
+        </article>
+        <article
+          id="contact-container-2"
+          className="mt-7 flex flex-wrap w-full justify-evenly text-5xl sm:text-7xl text-pakistangreen"
+        >
+          <Link to="sms:+447591594294" target="_blank">
+            <FaSms className="hover:text-buff" />
           </Link>
         </article>
       </section>
