@@ -45,7 +45,10 @@ function MainPage() {
 
   return (
     <div id="home" className="w-screen">
-      <nav id="socials" className="flex m-4 xl:ml-5 font-poppins text-base">
+      <nav
+        id="socials"
+        className="flex m-4 xl:ml-5 font-poppins text-base lg:text-lg"
+      >
         <Link
           to="https://www.linkedin.com/in/saragmatos"
           target="_blank"
@@ -71,22 +74,22 @@ function MainPage() {
           id="description"
           className="m-10 mt-0 mb-0 xl:ml-15 grow self-center font-poppins"
         >
-          <h1 className="font-bold mb-3 text-3xl text-huntergreen">
+          <h1 className="font-bold mb-5 text-3xl xl:text-5xl text-huntergreen">
             SARA MATOS
           </h1>
-          <h2 className="mb-3 text-lg text-huntergreen">
+          <h2 className="mb-3 text-lg xl:text-xl text-huntergreen">
             Junior Software Developer
           </h2>
-          <p className="mb-3 text-lg text-huntergreen">
+          <p className="mb-3 text-lg xl:text-xl text-huntergreen">
             Working on personal projects and volunteering
           </p>
-          <p className="mb-3 text-lg text-huntergreen">
+          <p className="mb-3 text-lg xl:text-xl text-huntergreen">
             Actively looking for a dev role within the UK
           </p>
         </section>
         <nav
           id="sidenav"
-          className="flex self-center flex-col m-10 ml-7 mt-1 grow font-antic text-[70px] sm:text-9xl md:text-[130px] lg:text-[160px] xl:text-[140px] 2xl:text-[140px] xl:mr-20 max-w-fit"
+          className="flex self-center flex-col m-10 ml-7 mt-1 grow font-antic text-[75px] sm:text-9xl md:text-[130px] lg:text-[110px] xl:text-[140px] 2xl:text-[160px] xl:mr-20 max-w-fit"
         >
           <Link
             to="/#skills"
@@ -793,7 +796,7 @@ function MainPage() {
         </div>
 
         <section id="contact-header" className="mt-8">
-          <p className="text-pakistangreen text-xl lg:text-2xl xl:text-2xl text-center">
+          <p className="text-huntergreen text-xl lg:text-2xl xl:text-2xl text-center">
             You have all my contact details on my CV, which you can download{" "}
             <Link
               to="https://drive.google.com/file/d/11JhUYU5F2qrCbwptpt_TOm-EW7aaX1uE/view?usp=sharing"
@@ -804,14 +807,14 @@ function MainPage() {
             </Link>
             .
           </p>
-          <p className="text-pakistangreen text-xl lg:text-2xl xl:text-2xl text-center mt-4">
+          <p className="text-huntergreen text-xl lg:text-2xl xl:text-2xl text-center mt-4">
             Or feel free to use any of the mediums below to reach out:
           </p>
         </section>
         <article className="flex flex-col h-80 justify-evenly">
           <section
             id="contact-container-1"
-            className="mt-4 flex flex-wrap w-full justify-evenly text-5xl sm:text-7xl text-pakistangreen"
+            className="mt-4 flex flex-wrap w-full justify-evenly text-5xl sm:text-7xl text-huntergreen"
           >
             <Link to="mailto:saragarciamatos@gmail.com">
               <MdOutlineMail className="hover:text-buff hover:scale-125 transition-all ease-in-out" />
@@ -825,7 +828,7 @@ function MainPage() {
           </section>
           <section
             id="contact-container-2"
-            className=" flex flex-wrap w-full justify-evenly text-5xl sm:text-7xl text-pakistangreen"
+            className=" flex flex-wrap w-full justify-evenly text-5xl sm:text-7xl text-huntergreen"
           >
             <Link to="sms:+447591594294" target="_blank">
               <FaSms className="hover:text-buff hover:scale-125 transition-all ease-in-out" />
