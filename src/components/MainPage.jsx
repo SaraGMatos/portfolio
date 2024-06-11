@@ -761,11 +761,11 @@ function MainPage() {
         </article>
       </section>
 
-      <section id="contact" className="bg bg-papayawhip w-full h-screen p-9">
-        <h2 className="mb-5 sm:mb-8 text-ferngreen font-antic text-[70px] sm:text-9xl md:text-[160px] lg:text-[160px] xl:text-[140px] 2xl:text-[140px] xl:mr-20">
+      <section id="contact" className="bg bg-papayawhip w-full p-9">
+        <h2 className="mb-6 sm:mb-8 text-ferngreen font-antic text-[70px] sm:text-9xl md:text-[160px] lg:text-[160px] xl:text-[140px] 2xl:text-[140px] xl:mr-20">
           CONTACT
         </h2>
-        <div className="flex text-xl justify-evenly text-ferngreen md:text-2xl flex-wrap mb-9">
+        <div className="flex text-xl justify-evenly text-ferngreen md:text-2xl flex-wrap mb-12">
           <Link
             className="m-2 hover:italic hover:translate-x-2 hover:transition-transform ease-in duration-200 font-poppins"
             to="/#home"
@@ -793,7 +793,7 @@ function MainPage() {
         </div>
 
         <section id="contact-header" className="mt-8">
-          <p className="text-pakistangreen text-xl lg:text-2xl xl:text-3xl text-center">
+          <p className="text-pakistangreen text-xl lg:text-2xl xl:text-2xl text-center">
             You have all my contact details on my CV, which you can download{" "}
             <Link
               to="https://drive.google.com/file/d/11JhUYU5F2qrCbwptpt_TOm-EW7aaX1uE/view?usp=sharing"
@@ -804,33 +804,47 @@ function MainPage() {
             </Link>
             .
           </p>
-          <p className="text-pakistangreen text-xl lg:text-2xl xl:text-3xl text-center mt-4">
+          <p className="text-pakistangreen text-xl lg:text-2xl xl:text-2xl text-center mt-4">
             Or feel free to use any of the mediums below to reach out:
           </p>
         </section>
-        <article
-          id="contact-container-1"
-          className="mt-7 flex flex-wrap w-full justify-evenly text-5xl sm:text-7xl text-pakistangreen"
-        >
-          <Link to="mailto:saragarciamatos@gmail.com">
-            <MdOutlineMail className="hover:text-buff" />
-          </Link>
-          <Link to="tel:+447591594294" target="_blank">
-            <IoIosCall className="hover:text-buff" />
-          </Link>
-          <Link to="https://wa.me/447591594294" target="_blank">
-            <FaWhatsapp className="hover:text-buff" />
-          </Link>
-        </article>
-        <article
-          id="contact-container-2"
-          className="mt-7 flex flex-wrap w-full justify-evenly text-5xl sm:text-7xl text-pakistangreen"
-        >
-          <Link to="sms:+447591594294" target="_blank">
-            <FaSms className="hover:text-buff" />
-          </Link>
+        <article className="flex flex-col h-80 justify-evenly">
+          <section
+            id="contact-container-1"
+            className="mt-4 flex flex-wrap w-full justify-evenly text-5xl sm:text-7xl text-pakistangreen"
+          >
+            <Link to="mailto:saragarciamatos@gmail.com">
+              <MdOutlineMail className="hover:text-buff hover:scale-125 transition-all ease-in-out" />
+            </Link>
+            <Link to="tel:+447591594294" target="_blank">
+              <IoIosCall className="hover:text-buff hover:scale-125 transition-all ease-in-out" />
+            </Link>
+            <Link to="https://wa.me/447591594294" target="_blank">
+              <FaWhatsapp className="hover:text-buff hover:scale-125 transition-all ease-in-out" />
+            </Link>
+          </section>
+          <section
+            id="contact-container-2"
+            className=" flex flex-wrap w-full justify-evenly text-5xl sm:text-7xl text-pakistangreen"
+          >
+            <Link to="sms:+447591594294" target="_blank">
+              <FaSms className="hover:text-buff hover:scale-125 transition-all ease-in-out" />
+            </Link>
+            <Link to="https://www.linkedin.com/in/saragmatos/" target="_blank">
+              <AiOutlineLinkedin className="hover:text-buff hover:scale-125 transition-all ease-in-out" />
+            </Link>
+          </section>
         </article>
       </section>
+      <footer className="bg-ferngreen h-35 p-4 border-t-8 border-double border-papayawhip">
+        <h4 className="font-poppins text-papayawhip text-lg text-center">
+          Sara Matos
+          <br />
+          saragarciamatos@gmail.com
+          <br />
+          07591594294
+        </h4>
+      </footer>
     </div>
   );
 }
