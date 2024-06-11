@@ -1,6 +1,11 @@
 import { Link } from "react-router-dom";
 import { IoLogoJavascript } from "react-icons/io5";
 import { BiLogoTypescript, BiLogoJava } from "react-icons/bi";
+import { MdOutlineMail } from "react-icons/md";
+import { FaWhatsapp } from "react-icons/fa6";
+import { IoIosCall } from "react-icons/io";
+import { AiOutlineLinkedin } from "react-icons/ai";
+import { FaSms } from "react-icons/fa";
 
 import {
   SiJest,
@@ -671,10 +676,10 @@ function MainPage() {
                 At around September 2023, my curiosity led me to do a five-day
                 coding challenge; I enjoyed it so much that I started to learn
                 programming on the side while working full-time as a teacher. By
-                the end of the year I was seriously considering changing careers
-                as I found an unexpected joy in coding, and decided to enrol in
-                the Northcoders Software Engineering bootcamp, from which I
-                graduated at the start of June.
+                the end of the year, I was seriously considering changing
+                careers as I found an unexpected joy in coding, and decided to
+                enrol in the Northcoders Software Engineering bootcamp, from
+                which I graduated at the start of June.
               </p>
               <p>
                 Despite the obvious steep learning curve, the course has
@@ -756,7 +761,7 @@ function MainPage() {
         </article>
       </section>
 
-      <section id="contact" className="bg bg-papayawhip w-full p-9">
+      <section id="contact" className="bg bg-papayawhip w-full h-screen p-9">
         <h2 className="mb-5 sm:mb-8 text-ferngreen font-antic text-[70px] sm:text-9xl md:text-[160px] lg:text-[160px] xl:text-[140px] 2xl:text-[140px] xl:mr-20">
           CONTACT
         </h2>
@@ -787,16 +792,23 @@ function MainPage() {
           </Link>
         </div>
 
-        <article>
-          <p>
-            You have all my contact details on my CV, which you can download by
-            clicking <Link>here</Link>
+        <section id="contact-header" className="mt-8">
+          <p className="text-pakistangreen text-xl lg:text-2xl xl:text-3xl text-center">
+            You have all my contact details on my CV, which you can download{" "}
+            <Link
+              to="https://drive.google.com/file/d/11JhUYU5F2qrCbwptpt_TOm-EW7aaX1uE/view?usp=sharing"
+              target="_blank"
+              className="font-bold underline hover:text-buff transition-all ease-in-out"
+            >
+              here
+            </Link>
+            .
           </p>
-          <p>
-            Or if you prefer, feel free to use any of the mediums below to reach
-            out:
+          <p className="text-pakistangreen text-xl lg:text-2xl xl:text-3xl text-center mt-4">
+            Or feel free to use any of the mediums below to reach out:
           </p>
-        </article>
+        </section>
+        <article id="contact-container"></article>
       </section>
     </div>
   );
