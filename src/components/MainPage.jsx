@@ -808,7 +808,15 @@ function MainPage() {
             Or feel free to use any of the mediums below to reach out:
           </p>
         </section>
-        <article id="contact-container"></article>
+        <article
+          id="contact-container"
+          className="mt-7 flex flex-wrap w-full justify-evenly text-5xl sm:text-7xl text-pakistangreen"
+        >
+          <Link to="mailto:saragarciamatos@gmail.com">
+            <MdOutlineMail className="hover:text-buff" />
+          </Link>
+          <Link></Link>
+        </article>
       </section>
     </div>
   );
