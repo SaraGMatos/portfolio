@@ -815,7 +815,12 @@ function MainPage() {
           <Link to="mailto:saragarciamatos@gmail.com">
             <MdOutlineMail className="hover:text-buff" />
           </Link>
-          <Link></Link>
+          <Link to="tel:+447591594294">
+            <IoIosCall className="hover:text-buff" />
+          </Link>
+          <Link to="https://wa.me/447591594294">
+            <FaWhatsapp className="hover:text-buff" />
+          </Link>
         </article>
       </section>
     </div>
