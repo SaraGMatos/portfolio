@@ -47,7 +47,7 @@ function MainPage() {
     <div id="home" className="w-screen">
       <nav
         id="socials"
-        className="flex m-4 xl:ml-5 font-poppins text-base lg:text-lg"
+        className="flex m-4 xl:ml-12 font-poppins text-base lg:text-lg"
       >
         <Link
           to="https://www.linkedin.com/in/saragmatos"
@@ -72,7 +72,7 @@ function MainPage() {
       <div className="flex flex-wrap w-screen h-screen content-around">
         <section
           id="description"
-          className="m-10 mt-0 mb-0 xl:ml-15 grow self-center font-poppins"
+          className="m-10 mt-0 mb-0 xl:ml-20 grow self-center font-poppins"
         >
           <h1 className="font-bold mb-5 text-3xl xl:text-5xl text-huntergreen">
             SARA MATOS
@@ -89,7 +89,7 @@ function MainPage() {
         </section>
         <nav
           id="sidenav"
-          className="flex self-center flex-col m-10 ml-7 mt-1 grow font-antic text-[75px] sm:text-9xl md:text-[130px] lg:text-[110px] xl:text-[140px] 2xl:text-[160px] xl:mr-20 max-w-fit"
+          className="flex self-center flex-col m-10 ml-9 mt-1 grow font-antic text-[75px] sm:text-9xl md:text-[130px] lg:text-[110px] xl:text-[140px] 2xl:text-[160px] xl:mr-20 max-w-fit"
         >
           <Link
             to="/#skills"
