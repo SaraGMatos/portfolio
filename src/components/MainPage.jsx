@@ -694,13 +694,10 @@ function MainPage() {
         </article>
 
         <hr className="w-vw border-earthyellow border-2 m-7" />
+        <hr className="w-vw border-earthyellow border-2 m-7" />
 
         <article id="about-content-two" className="flex flex-col gap-6">
           <div className="flex flex-col w-vw">
-            <img
-              src="https://i.postimg.cc/kgSnGtCF/Screenshot-2024-06-07-at-15-42-40.png"
-              className="self-center rounded-xl mt-4 mb-5"
-            />
             <div
               id="text-container"
               className="flex flex-col sm:flex-col md:flex-row"
@@ -746,17 +743,16 @@ function MainPage() {
                   recommendation!
                 </p>
                 <p>
-                  I love art, and losing track of time in museums and
+                  I cherish art, and losing track of time in museums and
                   exhibitions is another of my favourite pastimes, along with
                   going to live concerts whenever I can - I find they are the
                   perfect excuse to travel and explore new places.
                 </p>
                 <p>
-                  Coming from a place where there is not a lot of rainfall, I
-                  can't help it but to feel stunned by the green and leafy
-                  nature in the beautiful Scottish countryside, reason why you
-                  will find me hiking every other weekend accompanied by my dog
-                  Mocha.
+                  In general, I lead a simple life. I love puns and bad jokes
+                  -perhaps too much- and I am probably at my happiest when
+                  sharing a nice meal with friends or family. Some beige flags
+                  of mine are being clumsy and struggling to identify sarcasm.
                 </p>
               </div>
             </div>
