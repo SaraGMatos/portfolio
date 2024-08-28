@@ -75,7 +75,7 @@ function MainPage() {
           className="m-10 mt-0 mb-0 xl:ml-20 grow self-center font-poppins"
         >
           <h1 className="font-bold mb-5 text-3xl xl:text-5xl text-huntergreen">
-            SARA MATOS
+            &lt; SARA MATOS /&gt;
           </h1>
           <h2 className="mb-3 text-lg xl:text-xl text-huntergreen">
             Junior Software Developer
@@ -395,13 +395,13 @@ function MainPage() {
         </div>
 
         <section id="projects-content">
-          <article id="news-api">
+          <article id="hotel-management">
             <h3 className="text-huntergreen font-poppins text-3xl sm:text-3xl md:text-4xl w-full text-center mb-6 mt-11 font-semibold hover:text-buff hover:scale-125 transition-all ease-in-out">
               <Link
-                to="https://github.com/SaraGMatos/backend-project"
+                to="https://github.com/SaraGMatos/hotel-management-project"
                 target="_blank"
               >
-                NC News API
+                SleepEasy
               </Link>
             </h3>
             <div
@@ -409,7 +409,7 @@ function MainPage() {
               className="flex flex-col sm:flex-row md:justify-evenly ml-3 mr-3"
             >
               <img
-                src="https://i.postimg.cc/hGVyvZhj/Screenshot-2024-06-06-at-15-37-24.png"
+                src="https://i.postimg.cc/x84ms21x/Screenshot-2024-08-28-at-11-29-20.png"
                 className="mb-6 rounded-xl w-3/5 sm:w-1/2 md:max-w-[334px] self-center sm:self-start sm:mr-7"
               />
               <div
@@ -417,40 +417,45 @@ function MainPage() {
                 className="text-huntergreen text-justify flex flex-col gap-3 self-center mb-6 text-lg md:text-lg lg:text-xl xl:text-2xl"
               >
                 <p>
-                  A <b>RESTful API</b> for a Reddit-like web app.
+                  A directed project focusing on building a hotel management
+                  tool inspired by sites like <i>booking.com</i>. In this app,
+                  users will be able to post and manage their own accommodation,
+                  as well as make reservations from other providers.
                 </p>
                 <p>
-                  Served with <b>ExpressJS</b> and developed using{" "}
-                  <b>Node.js</b> and <b>Postgres </b>
-                  as database service.
+                  It is being built with <b>TypeScript</b> using <b>Next.js</b>{" "}
+                  as React framework.
                 </p>
                 <p>
-                  I thoroughly enjoyed building this humble API as my very first
-                  solo backend project.
+                  This app also integrates <b>Sanity.io</b>, a content
+                  management system to facilitate admin experience and data
+                  accessibility.
                 </p>
                 <p>
-                  It was developed in just five days during the Northcoders
-                  Software Engineering bootcamp.
+                  At the moment it is not publicly hosted, but it will be as
+                  soon as it ready to be released! Stay tuned.
                 </p>
                 <p>
                   Feel free to access the <b>GitHub</b> repo{" "}
                   <Link
-                    to="https://github.com/SaraGMatos/backend-project"
+                    to="https://github.com/SaraGMatos/hotel-management-project"
                     target="_blank"
                     className="font-bold underline hover:text-buff transition-all ease-in-out"
                   >
-                    here
+                    here.
                   </Link>
-                  .
                 </p>
               </div>
             </div>
           </article>
 
-          <article id="news-fe">
+          <article id="java-api">
             <h3 className="text-huntergreen font-poppins text-3xl sm:text-3xl md:text-4xl w-full text-center mb-6 mt-11 font-semibold hover:text-buff hover:scale-125 transition-all ease-in-out">
-              <Link to="https://github.com/SaraGMatos/nc-news" target="_blank">
-                NC News
+              <Link
+                to="https://github.com/SaraGMatos/api-java-nc"
+                target="_blank"
+              >
+                Java API
               </Link>
             </h3>
             <div
@@ -462,44 +467,33 @@ function MainPage() {
                 className="text-huntergreen text-justify flex flex-col gap-3 self-center mb-6 text-lg md:text-lg lg:text-xl xl:text-2xl"
               >
                 <p>
-                  This is the <b>front-end result</b> of the full-stack project
-                  that started with the NC News REST API.
+                  A small project aimed at learning <b>Java</b> and its popular{" "}
+                  <b>Spring</b> framework as well as further exploring object
+                  oriented programming, a programming paradigm that has always
+                  sparked my curiosity.
                 </p>
                 <p>
-                  Built using the amazing <b>ReactJS</b> framework,
-                  <b> Node.js</b> and <b>vanilla CSS</b>.
+                  Set up using <b>Spring Boot</b> and built following the{" "}
+                  <b>controller-service-repository pattern</b>.
                 </p>
                 <p>
-                  I used <b>Axios</b>, a browser-compatible HTTP client, to
-                  contact the API.
+                  A <b>Postgres database</b> has been connected through Spring
+                  Boot and is managed with <b>Liquibase</b>.
                 </p>
-                <p>
-                  It was planned, designed & developed in a week during the
-                  Northcoders Software Engineering bootcamp.
-                </p>
-                <p>Please note that, for now, it is best viewed on mobile!</p>
                 <p>
                   Feel free to access the <b>GitHub</b> repo{" "}
                   <Link
-                    to="https://github.com/SaraGMatos/nc-news"
+                    to="https://github.com/SaraGMatos/api-java-nc"
                     target="_blank"
                     className="font-bold underline hover:text-buff transition-all ease-in-out"
                   >
                     here
                   </Link>{" "}
-                  or explore the app, hosted on <b>Netlify</b>,{" "}
-                  <Link
-                    to="https://my-ncnews.netlify.app/"
-                    target="_blank"
-                    className="font-bold underline hover:text-buff transition-all ease-in-out"
-                  >
-                    here
-                  </Link>
                   .
                 </p>
               </div>
               <img
-                src="https://i.postimg.cc/FsKZMqHQ/Screenshot-2024-06-06-at-18-30-45.png"
+                src="https://i.postimg.cc/rwznFV4m/Screenshot-2024-08-28-at-11-00-43.png"
                 className="mb-6 rounded-xl w-3/5 sm:w-1/2 md:max-w-[334px] self-center sm:self-start sm:ml-7"
               />
             </div>
@@ -568,6 +562,116 @@ function MainPage() {
                     here
                   </Link>
                   . Note that SkillMatch is best experienced in mobile.
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <article id="news-fe">
+            <h3 className="text-huntergreen font-poppins text-3xl sm:text-3xl md:text-4xl w-full text-center mb-6 mt-11 font-semibold hover:text-buff hover:scale-125 transition-all ease-in-out">
+              <Link to="https://github.com/SaraGMatos/nc-news" target="_blank">
+                NC News
+              </Link>
+            </h3>
+            <div
+              id="project-content"
+              className="flex flex-col-reverse sm:flex-row md:justify-evenly ml-3 mr-3"
+            >
+              <div
+                id="text"
+                className="text-huntergreen text-justify flex flex-col gap-3 self-center mb-6 text-lg md:text-lg lg:text-xl xl:text-2xl"
+              >
+                <p>
+                  This is the <b>front-end result</b> of the full-stack project
+                  that started with the NC News REST API.
+                </p>
+                <p>
+                  Built using the amazing <b>ReactJS</b> framework,
+                  <b> Node.js</b> and <b>vanilla CSS</b>.
+                </p>
+                <p>
+                  I used <b>Axios</b>, a browser-compatible HTTP client, to
+                  contact the API.
+                </p>
+                <p>
+                  It was planned, designed & developed in a week during the
+                  Northcoders Software Engineering bootcamp.
+                </p>
+                <p>Please note that, for now, it is best viewed on mobile!</p>
+                <p>
+                  Feel free to access the <b>GitHub</b> repo{" "}
+                  <Link
+                    to="https://github.com/SaraGMatos/nc-news"
+                    target="_blank"
+                    className="font-bold underline hover:text-buff transition-all ease-in-out"
+                  >
+                    here
+                  </Link>{" "}
+                  or explore the app, hosted on <b>Netlify</b>,{" "}
+                  <Link
+                    to="https://my-ncnews.netlify.app/"
+                    target="_blank"
+                    className="font-bold underline hover:text-buff transition-all ease-in-out"
+                  >
+                    here
+                  </Link>
+                  .
+                </p>
+              </div>
+              <img
+                src="https://i.postimg.cc/FsKZMqHQ/Screenshot-2024-06-06-at-18-30-45.png"
+                className="mb-6 rounded-xl w-3/5 sm:w-1/2 md:max-w-[334px] self-center sm:self-start sm:ml-7"
+              />
+            </div>
+          </article>
+
+          <article id="news-api">
+            <h3 className="text-huntergreen font-poppins text-3xl sm:text-3xl md:text-4xl w-full text-center mb-6 mt-11 font-semibold hover:text-buff hover:scale-125 transition-all ease-in-out">
+              <Link
+                to="https://github.com/SaraGMatos/backend-project"
+                target="_blank"
+              >
+                NC News API
+              </Link>
+            </h3>
+            <div
+              id="project-content"
+              className="flex flex-col sm:flex-row md:justify-evenly ml-3 mr-3"
+            >
+              <img
+                src="https://i.postimg.cc/hGVyvZhj/Screenshot-2024-06-06-at-15-37-24.png"
+                className="mb-6 rounded-xl w-3/5 sm:w-1/2 md:max-w-[334px] self-center sm:self-start sm:mr-7"
+              />
+              <div
+                id="text"
+                className="text-huntergreen text-justify flex flex-col gap-3 self-center mb-6 text-lg md:text-lg lg:text-xl xl:text-2xl"
+              >
+                <p>
+                  A <b>RESTful API</b> for a Reddit-like web app.
+                </p>
+                <p>
+                  Served with <b>ExpressJS</b> and developed using{" "}
+                  <b>Node.js</b> and <b>Postgres </b>
+                  as database service.
+                </p>
+                <p>
+                  I thoroughly enjoyed building this humble API as my very first
+                  solo backend project.
+                </p>
+                <p>
+                  It was developed in just five days during the Northcoders
+                  Software Engineering bootcamp.
+                </p>
+                <p>
+                  Feel free to access the <b>GitHub</b> repo{" "}
+                  <Link
+                    to="https://github.com/SaraGMatos/backend-project"
+                    target="_blank"
+                    className="font-bold underline hover:text-buff transition-all ease-in-out"
+                  >
+                    here
+                  </Link>
+                  .
                 </p>
               </div>
             </div>
