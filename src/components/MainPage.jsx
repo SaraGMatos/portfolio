@@ -1,8 +1,10 @@
+import Typewriter from "typewriter-effect";
 import { Link } from "react-router-dom";
 import { IoLogoJavascript } from "react-icons/io5";
-import { BiLogoTypescript, BiLogoJava } from "react-icons/bi";
+import { BiLogoTypescript } from "react-icons/bi";
 import { MdOutlineMail } from "react-icons/md";
 import { FaWhatsapp } from "react-icons/fa6";
+import { RiNextjsFill } from "react-icons/ri";
 import { IoIosCall } from "react-icons/io";
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { FaSms } from "react-icons/fa";
@@ -74,8 +76,24 @@ function MainPage() {
           id="description"
           className="m-10 mt-0 mb-0 xl:ml-20 grow self-center font-poppins"
         >
-          <h1 className="font-bold mb-5 text-3xl xl:text-5xl text-huntergreen">
-            &lt; SARA MATOS /&gt;
+          <h1 className="font-bold mb-5 text-2xl xl:text-3xl text-huntergreen">
+            Hi there, I am
+          </h1>
+          <h1 className="mb-5 text-3xl xl:text-5xl text-[#E76F51]">
+            <Typewriter
+              options={{
+                strings: [
+                  "< SARA MATOS />",
+                  "CURIOUS",
+                  "PASSIONATE",
+                  "PROACTIVE",
+                  "FRIENDLY",
+                ],
+                autoStart: true,
+                pauseFor: 2000,
+                loop: true,
+              }}
+            />{" "}
           </h1>
           <h2 className="mb-3 text-lg xl:text-xl text-huntergreen">
             Junior Software Developer
@@ -169,8 +187,8 @@ function MainPage() {
               </p>
               <p className="text-teagreen text-justify">
                 Creating user-friendly interfaces with web technologies such as
-                <b> JavaScript</b>, <b>HTML</b>, <b>CSS</b> and the much loved{" "}
-                <b>ReactJS</b>.
+                <b> JavaScript/TypeScript</b>, <b>HTML</b>, <b>CSS</b> and the
+                much loved <b>ReactJS</b>.
               </p>
               <p className="text-teagreen text-justify">
                 Using <b>Axios</b> as HTTP client for making API requests from
@@ -183,6 +201,10 @@ function MainPage() {
               <p className="text-teagreen text-justify">
                 Styling using popular frameworks like <b>TailwindCSS</b> or{" "}
                 <b>Bootstrap</b>.
+              </p>
+              <p className="text-teagreen text-justify">
+                Integrating content management systems (CMS) like{" "}
+                <b>SanityIO</b> to facilitate admin interfaces.
               </p>
             </section>
             <section
@@ -201,15 +223,20 @@ function MainPage() {
                 (Model-View-Controller) design pattern.
               </p>
               <p className="text-teagreen text-justify">
+                Organising Spring Boot Java servers following the{" "}
+                <b>Controller-Service-Repository</b> pattern.
+              </p>
+              <p className="text-teagreen text-justify">
                 Creating, seeding and querying <b>PostgreSQL</b> databases using
                 both <b>psql</b> and <b>Azure Data Studio</b>.
               </p>
               <p className="text-teagreen text-justify">
                 Using <b>Supabase</b> as backend service to quickly build robust
-                apps.
+                apps as well as managing databases with <b>Liquibase</b>.
               </p>
               <p className="text-teagreen text-justify">
-                Exploring the world of OOP using <b>C#</b> and <b>Java</b>.
+                Validating and authorising users utilising{" "}
+                <b>JSON Web Tokens</b> (JWT).
               </p>
             </section>
             <section
@@ -353,8 +380,8 @@ function MainPage() {
                     {" "}
                     <BiLogoTypescript className="hover:text-earthyellow" />
                   </Link>
-                  <Link to="https://dev.java/" target="_blank">
-                    <BiLogoJava className="hover:text-earthyellow" />
+                  <Link to="https://nextjs.org/" target="_blank">
+                    <RiNextjsFill className="hover:text-earthyellow" />
                   </Link>
                 </div>
               </div>
@@ -791,7 +818,8 @@ function MainPage() {
               <p>
                 Despite the obvious steep learning curve, the course has
                 equipped me with some decent programming skills and a nice tech
-                stack to expand from.
+                stack that I have continued expanding from through engaging in
+                different projects.
               </p>
             </div>
           </div>
